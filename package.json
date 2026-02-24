@@ -6,11 +6,14 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@remotion/cli": "4.0.427",
+    "@remotion/cli": "^4.0.427",
+    "@remotion/renderer": "^4.0.427",
+    "@remotion/tailwind-v4": "4.0.427",
+    "dotenv": "^17.3.1",
+    "mongoose": "^9.2.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.427",
-    "@remotion/tailwind-v4": "4.0.427",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -22,6 +25,8 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "download-assets": "node scripts/downloadAssets.js",
+    "batch-render": "node scripts/batchRender.js",
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
