@@ -1,6 +1,8 @@
-import { AbsoluteFill, Sequence, getInputProps } from "remotion";
-import { QuizCard, QUESTION_EXIT_FRAME } from "./QuizCard";
-import { ExplanationCard } from "./ExplanationCard";
+import { AbsoluteFill, Audio, Sequence, OffthreadVideo, getInputProps, staticFile } from "remotion";
+import { QuizCard } from "./QuizCard";
+
+const QUIZ_DURATION = 240;   // 8 seconds at 30fps
+const PROMO_DURATION = 270;  // 9 seconds at 30fps (covers 8.6s promo)
 
 export const mockQuiz = {
   _id: "mock_123",
@@ -30,20 +32,34 @@ export const mockQuiz = {
   }
 };
 
+export const TOTAL_DURATION = QUIZ_DURATION + PROMO_DURATION;
+
 export const MyComposition = () => {
-  const envProps = getInputProps() as { quiz?: any };
+  const envProps = getInputProps() as { quiz?: any, audioIndex?: number };
   const activeQuiz = envProps?.quiz || mockQuiz;
+  const audioIndex = envProps?.audioIndex || 0;
+  const audioFile = audioIndex % 2 === 0 ? "audio/audio1.mp4" : "audio/audio2.mp4";
 
   return (
-    <AbsoluteFill style={{ backgroundColor: '#FFF7FA' }}>
-      {/* Quiz card: visible from frame 0, exits at QUESTION_EXIT_FRAME (9s) */}
-      <Sequence from={0} durationInFrames={QUESTION_EXIT_FRAME + 60}>
-        <QuizCard quiz={activeQuiz} />
+    <AbsoluteFill style={{ backgroundColor: '#000000' }}>
+      {/* Background audio plays for entire video (alternating) */}
+      <Audio src={staticFile(audioFile)} />
+
+      {/* Quiz card segment */}
+      <Sequence from={0} durationInFrames={QUIZ_DURATION}>
+        <AbsoluteFill>
+          <QuizCard quiz={activeQuiz} />
+        </AbsoluteFill>
       </Sequence>
 
-      {/* Explanation card: starts at 9 seconds, after the quiz exits */}
-      <Sequence from={QUESTION_EXIT_FRAME}>
-        <ExplanationCard explain={activeQuiz.explain} />
+      {/* End promo video segment */}
+      <Sequence from={QUIZ_DURATION} durationInFrames={PROMO_DURATION}>
+        <AbsoluteFill>
+          <OffthreadVideo
+            src={staticFile("audio/end-promo.mp4")}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />
+        </AbsoluteFill>
       </Sequence>
     </AbsoluteFill>
   );

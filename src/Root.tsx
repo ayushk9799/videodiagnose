@@ -1,6 +1,6 @@
 import "./index.css";
 import { Composition } from "remotion";
-import { MyComposition, mockQuiz } from "./Composition";
+import { MyComposition, mockQuiz, TOTAL_DURATION } from "./Composition";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="MyComp"
         component={MyComposition}
-        durationInFrames={600} // 20 seconds at 30fps
+        durationInFrames={TOTAL_DURATION}
         fps={30}
         width={1080}
         height={1920}

@@ -8030,5 +8030,2205 @@
     "__v": 0,
     "createdAt": "2026-02-17T21:04:08.932Z",
     "updatedAt": "2026-02-17T21:04:08.932Z"
+  },
+  {
+    "_id": "699af292e174e1cac6682b1f",
+    "case_title": "Paradoxical Breathing",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0147.mp4"
+    ],
+    "complain": "During inspiration, the chest wall moves inward instead of outward. This breathing pattern is called",
+    "options": [
+      "Paradoxical breathing",
+      "Kussmaul breathing",
+      "Cheyne–Stokes respiration",
+      "Apneustic breathing"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f5028d",
+    "department": "pulmonology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Paradoxical breathing"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Abnormal Chest Dynamics",
+            "description": "Paradoxical breathing is a sign of severe respiratory distress where the chest wall moves in the opposite direction than normal: it collapses inward during inhalation and expands outward during exhalation."
+          },
+          {
+            "label": "Clinical Association",
+            "description": "This is a hallmark sign of a 'flail chest,' which occurs when a segment of the rib cage breaks under extreme stress and becomes detached from the rest of the chest wall. It can also be seen in diaphragmatic paralysis."
+          },
+          {
+            "label": "Physiological Impact",
+            "description": "Because the chest wall is moving inward during inspiration, the lungs cannot expand fully, leading to poor oxygenation and increased work of breathing, often requiring urgent medical intervention."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Kussmaul breathing",
+          "explanation": "A deep and labored breathing pattern often associated with severe metabolic acidosis, particularly diabetic ketoacidosis. It is a compensatory effort to blow off carbon dioxide."
+        },
+        {
+          "choice": "C) Cheyne–Stokes respiration",
+          "explanation": "A periodic breathing pattern characterized by alternating periods of deep and shallow breathing, followed by temporary apnea. It is often seen in patients with heart failure or brain damage."
+        },
+        {
+          "choice": "D) Apneustic breathing",
+          "explanation": "An abnormal pattern characterized by deep, gasping inspiration with a pause at full inspiration, followed by a brief, insufficient release. It usually indicates damage to the pons in the brainstem."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-02-22T12:12:02.941Z",
+    "updatedAt": "2026-02-22T12:12:02.941Z"
+  },
+  {
+    "_id": "699af4d9b458e71ec3c5911a",
+    "case_title": "Obesity Classification (Super Obesity)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0148.mp4"
+    ],
+    "complain": "A patient has a BMI = 60 kg/m². This degree of obesity is classified as?",
+    "options": [
+      "Super obesity",
+      "Morbid obesity",
+      "Class II obesity",
+      "Overweight"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Super obesity"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "BMI Thresholds",
+            "description": "Body Mass Index (BMI) is calculated as weight in kilograms divided by the square of height in meters. While a BMI of ≥ 40 kg/m² is defined as Class III (Morbid) obesity, a BMI of ≥ 50 kg/m² is specifically classified as 'Super obesity'."
+          },
+          {
+            "label": "Clinical Implications",
+            "description": "Patients in the super-obese category (BMI > 50) face extreme health risks, including severe obstructive sleep apnea, pulmonary hypertension, and Pickwickian syndrome (obesity hypoventilation)."
+          },
+          {
+            "label": "Surgical Consideration",
+            "description": "Super obesity significantly increases the technical difficulty and perioperative risks for bariatric surgery, often requiring staged procedures or intensive preoperative weight loss."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Morbid obesity",
+          "explanation": "This refers to Class III obesity (BMI ≥ 40 kg/m²). Although a BMI of 60 is technically morbidly obese, 'Super obesity' is the more specific clinical classification for values exceeding 50."
+        },
+        {
+          "choice": "C) Class II obesity",
+          "explanation": "Class II obesity corresponds to a BMI range of 35.0 to 39.9 kg/m²."
+        },
+        {
+          "choice": "D) Overweight",
+          "explanation": "The overweight category is defined as a BMI between 25.0 and 29.9 kg/m²."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-02-22T12:21:45.359Z",
+    "updatedAt": "2026-02-22T12:21:45.359Z"
+  },
+  {
+    "_id": "699af5dcb458e71ec3c5911f",
+    "case_title": "Melanocytic Kissing Nevus (Divided Nevus)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0149.png"
+    ],
+    "complain": "A patient has a pigmented lesion that spans both eyelids and meets at the lid margin. This lesion is called?",
+    "options": [
+      "Melanocytic kissing nevus",
+      "Congenital nevus",
+      "Seborrheic keratosis",
+      "Xanthelasma"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Melanocytic kissing nevus"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Embryological Origin",
+            "description": "Also known as a 'divided nevus,' this rare phenomenon occurs during fetal development between the 9th and 20th weeks when the eyelids are fused. A single melanocytic nevus develops across the fusion and is then split into two parts when the eyelids separate."
+          },
+          {
+            "label": "Kissing Appearance",
+            "description": "The hallmark of this condition is that the pigmented lesion is located on the opposing margins of the upper and lower eyelids. When the eyes are closed, the two segments meet or 'kiss,' appearing as one continuous lesion."
+          },
+          {
+            "label": "Clinical Features",
+            "description": "These are typically benign congenital melanocytic nevi and can vary in appearance from flat to verrucous or hairy (hypertrichosis). While generally benign, they carry a small risk of malignant transformation into melanoma."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Congenital nevus",
+          "explanation": "While a kissing nevus is technically a type of congenital nevus, the specific term 'divided' or 'kissing' nevus is used to describe this unique anatomical distribution across both lid margins."
+        },
+        {
+          "choice": "C) Seborrheic keratosis",
+          "explanation": "This is an acquired, benign epidermal growth with a characteristic 'stuck-on,' waxy appearance. It typically affects older adults and does not present as a divided congenital lesion."
+        },
+        {
+          "choice": "D) Xanthelasma",
+          "explanation": "Xanthelasmas are yellowish plaques caused by lipid-laden macrophages, usually appearing at the medial canthus. They are not darkly pigmented and do not form divided nevi."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-02-22T12:26:04.983Z",
+    "updatedAt": "2026-02-22T12:26:04.983Z"
+  },
+  {
+    "_id": "699af6bcb458e71ec3c59124",
+    "case_title": "Popeye Deformity (Biceps Tendon Rupture)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0150.mp4"
+    ],
+    "complain": "A prominent, rounded bulge in the upper arm appearing after sudden pain is known as which sign?",
+    "options": [
+      "Sulcus sign",
+      "Drop arm sign",
+      "Empty can sign",
+      "Popeye sign"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f5028e",
+    "department": "orthopedics",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Popeye sign"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Popeye Deformity",
+            "description": "The 'Popeye sign' refers to a visible bulge in the distal upper arm caused by a rupture of the long head of the biceps brachii tendon. When the tendon snaps, the muscle belly recoils and bunches up toward the elbow."
+          },
+          {
+            "label": "Mechanism of Injury",
+            "description": "It typically occurs during forceful flexion of the arm or following a sudden 'pop' accompanied by pain. It is often seen in older adults with chronic biceps tendinopathy or in athletes performing heavy lifting."
+          },
+          {
+            "label": "Functional Impact",
+            "description": "While cosmetically striking, the functional loss is often minimal because the short head of the biceps remains attached to the coracoid process, allowing for continued elbow flexion and forearm supination."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Sulcus sign",
+          "explanation": "This is a clinical sign of inferior shoulder instability. It is elicited by pulling the arm downward; a 'sulcus' or indentation appears between the acromion and the humeral head."
+        },
+        {
+          "choice": "B) Drop arm sign",
+          "explanation": "This test is used to identify full-thickness rotator cuff tears, specifically the supraspinatus. The patient is unable to slowly lower their arm from a fully abducted position without it dropping suddenly."
+        },
+        {
+          "choice": "C) Empty can sign",
+          "explanation": "Also known as the Jobe test, it evaluates for supraspinatus tendon injury or impingement. The patient resists downward pressure while the arms are abducted and internally rotated (thumbs pointing down)."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-02-22T12:29:48.122Z",
+    "updatedAt": "2026-02-22T12:29:48.122Z"
+  },
+  {
+    "_id": "699b0489b458e71ec3c5918f",
+    "case_title": "Bismuth-Induced Black Tongue",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0151.mp4"
+    ],
+    "complain": "A patient undergoing heavy-metal detoxification develops black discoloration of the tongue due to reaction with sulfur ions. This finding is caused by",
+    "options": [
+      "Iron deficiency",
+      "Oral candidiasis",
+      "Melanin overproduction",
+      "Bismuth deposition"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Bismuth deposition"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Bismuth-Sulfur Reaction",
+            "description": "Bismuth (often used in GI medications or during specific detoxification protocols) reacts with trace amounts of sulfur in saliva and the gastrointestinal tract to form bismuth sulfide, which is a black-colored salt."
+          },
+          {
+            "label": "Surface Staining",
+            "description": "Unlike 'Black Hairy Tongue' (which involves elongation of filiform papillae), this is a chemical staining of the tongue's surface. It is a benign, temporary condition."
+          },
+          {
+            "label": "Clinical Correlation",
+            "description": "This finding is commonly associated with the use of bismuth subsalicylate (e.g., Pepto-Bismol). In a detoxification context, bismuth might be used as a chelating agent or as part of a therapeutic regimen."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Iron deficiency",
+          "explanation": "Typically presents as atrophic glossitis (Plummer-Vinson syndrome), where the tongue appears smooth, red, and beefy due to the loss of papillae, not black."
+        },
+        {
+          "choice": "B) Oral candidiasis",
+          "explanation": "Presents as white, curd-like plaques on the tongue and oral mucosa that can be scraped off, often leaving an erythematous (red) base."
+        },
+        {
+          "choice": "C) Melanin overproduction",
+          "explanation": "Melanosis of the tongue usually appears as distinct, flat, pigmented macules (often seen in Addison's disease or Peutz-Jeghers syndrome) rather than a diffuse black coating caused by sulfur reaction."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-02-22T13:28:41.179Z",
+    "updatedAt": "2026-02-22T13:28:41.179Z"
+  },
+  {
+    "_id": "69b29012b458e71ec3c61db2",
+    "case_title": "Hypoglossal Nerve Palsy (CN XII)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0152.mp4"
+    ],
+    "complain": "Tongue deviates to the left when protruded. Which nerve is affected?",
+    "options": [
+      "Right Hypoglossal N.",
+      "Left Hypoglossal N.",
+      "Left Vagus N.",
+      "Right Glossopharyngeal N."
+    ],
+    "correctOptionIndex": 1,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "B) Left Hypoglossal N."
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Action of Genioglossus",
+            "description": "The hypoglossal nerve (CN XII) innervates the genioglossus muscle, which is responsible for protruding the tongue. Each genioglossus muscle pushes its half of the tongue forward and toward the opposite side."
+          },
+          {
+            "label": "The 'Licks the Lesion' Rule",
+            "description": "When one hypoglossal nerve is damaged, the action of the remaining healthy genioglossus muscle on the opposite side is unopposed. Consequently, the healthy side pushes the tongue toward the paralyzed (weak) side. Hence, the tongue 'licks the lesion'."
+          },
+          {
+            "label": "LMN Signs",
+            "description": "A lower motor neuron (LMN) lesion of the hypoglossal nerve may also present with ipsilateral atrophy (thinning) and fasciculations (quivering) of the tongue muscles over time."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Right Hypoglossal N.",
+          "explanation": "If the right hypoglossal nerve were affected, the left genioglossus would be unopposed, causing the tongue to deviate to the right upon protrusion."
+        },
+        {
+          "choice": "C) Left Vagus N.",
+          "explanation": "The vagus nerve (CN X) innervates the muscles of the soft palate. Lesion of the vagus nerve causes the uvula to deviate *away* from the side of the lesion (toward the healthy side)."
+        },
+        {
+          "choice": "D) Right Glossopharyngeal N.",
+          "explanation": "The glossopharyngeal nerve (CN IX) provides taste and sensation to the posterior third of the tongue and mediates the gag reflex. It does not control the motor protrusion of the tongue."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:06:10.244Z",
+    "updatedAt": "2026-03-12T10:06:10.244Z"
+  },
+  {
+    "_id": "69b29098b458e71ec3c61db7",
+    "case_title": "Patent Urachus",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0153.mp4"
+    ],
+    "complain": "An adult presents with persistent clear fluid leakage from the umbilicus, especially when the bladder is full.",
+    "options": [
+      "Omphalitis",
+      "Umbilical granuloma",
+      "Patent urachus",
+      "Meckel diverticulum"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6985953aaa274cdad78a58ba",
+    "department": "general surgery",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Patent urachus"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Embryological Remnant",
+            "description": "The urachus is a canal that connects the fetal bladder to the umbilicus. Typically, it obliterates before birth, becoming the median umbilical ligament. A patent urachus occurs when this duct fails to close."
+          },
+          {
+            "label": "Urine Leakage",
+            "description": "The most characteristic sign is the drainage of clear, urine-like fluid from the navel. This leakage often increases when intra-abdominal or bladder pressure is elevated (e.g., with a full bladder or straining)."
+          },
+          {
+            "label": "Clinical Complications",
+            "description": "While it can be asymptomatic, a patent urachus increases the risk of umbilical infections, skin excoriation, and in rare cases, the development of urachal adenocarcinoma later in life."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Omphalitis",
+          "explanation": "This is an infection of the umbilical stump, usually characterized by redness, warmth, pain, and purulent (pus) discharge rather than clear urine."
+        },
+        {
+          "choice": "B) Umbilical granuloma",
+          "explanation": "A common cause of umbilical discharge in neonates consisting of moist, red tissue. It produces serosanguinous fluid but does not have a connection to the bladder."
+        },
+        {
+          "choice": "D) Meckel diverticulum",
+          "explanation": "This results from a persistent vitelline duct. If it remains completely patent (omphalomesenteric duct), the umbilicus would leak enteric contents or fecal matter rather than clear urine."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:08:24.871Z",
+    "updatedAt": "2026-03-12T10:08:24.871Z"
+  },
+  {
+    "_id": "69b29180b458e71ec3c61dbc",
+    "case_title": "Virchow's Node (Troisier's Sign)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0154.mp4"
+    ],
+    "complain": "An enlarged left supraclavicular lymph node often associated with abdominal malignancy is called",
+    "options": [
+      "Virchow's node",
+      "Delphian node",
+      "Cloquet's node",
+      "Preauricular node"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Virchow's node"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Anatomical Location",
+            "description": "Virchow's node is located in the left supraclavicular fossa. It serves as a sentinel node because it receives lymphatic drainage from the thoracic duct, which collects lymph from most of the body, including the abdomen and thorax."
+          },
+          {
+            "label": "Troisier's Sign",
+            "description": "The clinical finding of a palpable, firm, and enlarged Virchow's node is known as Troisier's sign. It is a classic indicator of metastatic malignancy originating from abdominal organs."
+          },
+          {
+            "label": "Clinical Significance",
+            "description": "While most famously associated with gastric (stomach) cancer, it can also be a sign of metastasis from pancreatic, esophageal, testicular, or ovarian cancers."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Delphian node",
+          "explanation": "This is a prelaryngeal lymph node located in the midline. Enlargement of the Delphian node is typically associated with thyroid or laryngeal pathologies rather than abdominal malignancies."
+        },
+        {
+          "choice": "C) Cloquet's node",
+          "explanation": "Also known as the Rosenmüller node, this is a deep inguinal lymph node located in the femoral canal. It drains the glans penis/clitoris and lower limbs."
+        },
+        {
+          "choice": "D) Preauricular node",
+          "explanation": "Located in front of the ear, these nodes drain the lateral eyelids, conjunctiva, and external ear. They are commonly enlarged in infections like viral conjunctivitis."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:12:16.031Z",
+    "updatedAt": "2026-03-12T10:12:16.031Z"
+  },
+  {
+    "_id": "69b291c9b458e71ec3c61dc1",
+    "case_title": "Electroconvulsive Therapy (ECT)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0155.mp4"
+    ],
+    "complain": "A patient with severe, treatment-resistant depression shows rapid improvement after a procedure that induces a controlled seizure under anesthesia. This treatment is:",
+    "options": [
+      "Electroconvulsive therapy",
+      "Transcranial magnetic stimulation",
+      "Deep brain stimulation",
+      "Psychotherapy"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50293",
+    "department": "psychiatry",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Electroconvulsive therapy"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Therapeutic Seizure Induction",
+            "description": "ECT involves the application of a brief electrical stimulus to the scalp to induce a generalized seizure in the brain. This seizure is the therapeutic component believed to cause neurochemical changes that improve mood."
+          },
+          {
+            "label": "Anesthesia and Relaxation",
+            "description": "Modern ECT is performed under general anesthesia with a muscle relaxant (like succinylcholine) to prevent physical injury during the seizure, making the procedure painless and safe."
+          },
+          {
+            "label": "Rapid Efficacy",
+            "description": "It is highly effective for treatment-resistant depression, catatonia, and acute suicidal ideation, often providing much faster relief than traditional antidepressant medications."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Transcranial magnetic stimulation",
+          "explanation": "TMS is a non-invasive procedure that uses magnetic fields to stimulate nerve cells in the brain. It does not require anesthesia and does not induce a seizure."
+        },
+        {
+          "choice": "C) Deep brain stimulation",
+          "explanation": "DBS is an invasive surgical treatment involving the permanent implantation of electrodes into specific brain regions. It works through continuous electrical stimulation, not by inducing seizures."
+        },
+        {
+          "choice": "D) Psychotherapy",
+          "explanation": "This refers to 'talk therapy' or behavioral interventions. While essential in treating depression, it is not a medical procedure and does not involve physical induction of seizures under anesthesia."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:13:29.260Z",
+    "updatedAt": "2026-03-12T10:13:29.260Z"
+  },
+  {
+    "_id": "69b291fbb458e71ec3c61dc6",
+    "case_title": "Infantile Seizures",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0156.mp4"
+    ],
+    "complain": "A child presents with sudden, brief, repetitive episodes of staring, jerking, or loss of awareness. These events are most likely?",
+    "options": [
+      "Breath-holding spells",
+      "Syncope",
+      "Daydreaming",
+      "Seizures"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50297",
+    "department": "pediatrics",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Seizures"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Abnormal Electrical Activity",
+            "description": "Seizures result from sudden, excessive, and disorganized electrical discharges in the brain. They can manifest in various ways depending on which part of the brain is involved, including motor jerking, staring spells, or behavioral changes."
+          },
+          {
+            "label": "Stereotypical Behavior",
+            "description": "The repetitive and brief nature of the episodes described is characteristic of epileptic events. In infants, these may range from subtle eye-rolling to more obvious tonic-clonic movements as seen in the video."
+          },
+          {
+            "label": "Loss of Awareness",
+            "description": "During a seizure, there is often a temporary alteration or complete loss of consciousness, making the child unresponsive to external stimuli during the event."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Breath-holding spells",
+          "explanation": "These are benign events usually triggered by anger, pain, or fear. The child stops breathing after a deep expiration, which may lead to pallor or cyanosis, but not typically primary repetitive jerking without a preceding emotional trigger."
+        },
+        {
+          "choice": "B) Syncope",
+          "explanation": "Syncope is a transient loss of consciousness due to global cerebral hypoperfusion (fainting). While 'convulsive syncope' can involve brief jerks, the primary cause is cardiovascular or vasovagal, not a primary brain electrical disorder."
+        },
+        {
+          "choice": "C) Daydreaming",
+          "explanation": "While daydreaming involves staring, the child remains conscious and can be easily alerted or 'snapped out of it' by a touch or a loud sound, unlike an absence seizure or other seizure types."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:14:19.954Z",
+    "updatedAt": "2026-03-12T10:14:19.954Z"
+  },
+  {
+    "_id": "69b29233b458e71ec3c61dcb",
+    "case_title": "Essential Tremor",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0157.mp4"
+    ],
+    "complain": "A patient has bilateral hand tremor that worsens with action and improves at rest. This condition is:",
+    "options": [
+      "Essential tremor",
+      "Parkinson disease",
+      "Cerebellar tremor",
+      "Dystonia"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Essential tremor"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Action and Postural Tremor",
+            "description": "Essential tremor is primarily an action or postural tremor, meaning it occurs during purposeful movement or when holding a position against gravity (like the outstretched arms shown in the video)."
+          },
+          {
+            "label": "Bilateral Symmetry",
+            "description": "It typically affects both hands symmetrically, although it may have a slightly asymmetric onset. It can also involve the head (causing a 'yes-yes' or 'no-no' motion) and the voice."
+          },
+          {
+            "label": "Improvement at Rest",
+            "description": "A defining characteristic of essential tremor is that it significantly improves or disappears entirely when the limbs are at rest and fully supported, distinguishing it from Parkinsonian tremors."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Parkinson disease",
+          "explanation": "Parkinson's disease features a classic 'pill-rolling' rest tremor that usually *improves* or disappears during voluntary action. It is also typically associated with bradykinesia, rigidity, and postural instability."
+        },
+        {
+          "choice": "C) Cerebellar tremor",
+          "explanation": "This is often an 'intention tremor' that increases in amplitude as the hand reaches toward a specific target. It is usually associated with other cerebellar signs like ataxia or dysmetria."
+        },
+        {
+          "choice": "D) Dystonia",
+          "explanation": "Dystonia involves involuntary, sustained or intermittent muscle contractions causing repetitive twisting movements or abnormal fixed postures, which are distinct from the rhythmic oscillations of a tremor."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:15:15.340Z",
+    "updatedAt": "2026-03-12T10:15:15.340Z"
+  },
+  {
+    "_id": "69b29279b458e71ec3c61dd0",
+    "case_title": "Alopecia Areata",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0158.mp4"
+    ],
+    "complain": "A condition characterized by smooth, round, patchy areas of non-scarring hair loss is:",
+    "options": [
+      "Alopecia areata",
+      "Tinea capitis",
+      "Telogen effluvium",
+      "Trichotillomania"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50295",
+    "department": "dermatology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Alopecia areata"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Autoimmune Etiology",
+            "description": "Alopecia areata is an autoimmune condition where the body's immune system mistakenly attacks the hair follicles, leading to sudden, patchy hair loss."
+          },
+          {
+            "label": "Exclamation Point Hairs",
+            "description": "A classic diagnostic clue is the presence of 'exclamation point hairs'—short, broken hairs that are narrower at the base than at the tip, often found at the margins of the bald patches."
+          },
+          {
+            "label": "Nail Involvement",
+            "description": "In many cases, patients may also exhibit nail abnormalities, such as fine pitting (small dents), trachyonychia (sandpaper-like texture), or longitudinal ridging."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Tinea capitis",
+          "explanation": "This is a fungal infection of the scalp. Unlike alopecia areata, it typically presents with scaly skin, inflammation, and 'black dots' (hairs broken at the surface), and it may lead to scarring if severe."
+        },
+        {
+          "choice": "C) Telogen effluvium",
+          "explanation": "This is a temporary form of hair loss characterized by diffuse thinning across the entire scalp rather than well-defined round patches. It is often triggered by systemic stress, illness, or hormonal changes."
+        },
+        {
+          "choice": "D) Trichotillomania",
+          "explanation": "A psychiatric disorder where a person compulsively pulls out their own hair. The resulting patches are usually irregular in shape and contain hairs of varying lengths, rather than the smooth, completely bald skin seen in alopecia areata."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:16:25.984Z",
+    "updatedAt": "2026-03-12T10:16:25.984Z"
+  },
+  {
+    "_id": "69b292e5b458e71ec3c61dd5",
+    "case_title": "Arcus Senilis",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0159.mp4"
+    ],
+    "complain": "A patient has a gray-white ring at the peripheral cornea, separated from the limbus by a clear zone. This finding is:",
+    "options": [
+      "Arcus senilis",
+      "Kayser-Fleischer ring",
+      "Corneal edema",
+      "Band keratopathy"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Arcus senilis"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Lipid Deposition",
+            "description": "Arcus senilis is the most common corneal opacity, caused by the deposition of extracellular lipids (cholesterol and triglycerides) in the peripheral corneal stroma."
+          },
+          {
+            "label": "Lucid Interval of Vogt",
+            "description": "A classic clinical marker is the clear zone or 'lucid interval' that separates the white ring from the limbus (the edge of the cornea). This distinguishes it from other peripheral opacities."
+          },
+          {
+            "label": "Age and Risk Factors",
+            "description": "While common and often considered a benign sign of aging in the elderly, its appearance in younger patients (arcus juvenilis) necessitates screening for familial hypercholesterolemia."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Kayser-Fleischer ring",
+          "explanation": "These are golden-brown or brownish-green rings caused by copper deposits in Descemet's membrane, diagnostic of Wilson's disease (a disorder of copper metabolism)."
+        },
+        {
+          "choice": "C) Corneal edema",
+          "explanation": "Presents as a hazy, cloudy, or thickened cornea due to fluid accumulation. It lacks the sharp, white ring-like distribution seen in arcus senilis."
+        },
+        {
+          "choice": "D) Band keratopathy",
+          "explanation": "Characterized by calcium deposition forming a horizontal band across the central cornea, typically where the eye is exposed between the lids (palpebral fissure)."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:18:13.360Z",
+    "updatedAt": "2026-03-12T10:18:13.360Z"
+  },
+  {
+    "_id": "69b2931bb458e71ec3c61de9",
+    "case_title": "Congenital Glaucoma (Buphthalmos)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0160.mp4"
+    ],
+    "complain": "An infant presents with enlarged cornea, excessive tearing, and photophobia. The most likely diagnosis is:",
+    "options": [
+      "Congenital cataract",
+      "Keratitis",
+      "Retinopathy of prematurity",
+      "Congenital glaucoma"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Congenital glaucoma"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Buphthalmos",
+            "description": "Literally 'ox-eye,' this refers to the enlargement of the eye globe. In infants, the sclera and cornea are still elastic; elevated intraocular pressure causes the eye to stretch and enlarge."
+          },
+          {
+            "label": "Corneal Clouding",
+            "description": "Increased pressure leads to corneal edema, giving the eye a hazy or bluish-white appearance. This is often accompanied by Haab striae, which are horizontal breaks in Descemet's membrane."
+          },
+          {
+            "label": "Classic Symptom Triad",
+            "description": "Infants typically present with the triad of epiphora (excessive tearing), photophobia (light sensitivity/avoidance), and blepharospasm (involuntary eyelid squeezing)."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Congenital cataract",
+          "explanation": "Presents as an opacity of the lens visible as a white pupil (leukocoria). It does not cause enlargement of the cornea or the globe."
+        },
+        {
+          "choice": "B) Keratitis",
+          "explanation": "Inflammation of the cornea can cause clouding, pain, and tearing, but it is usually acquired (infectious) and does not result in the structural enlargement of the eyeball seen in congenital glaucoma."
+        },
+        {
+          "choice": "C) Retinopathy of prematurity",
+          "explanation": "A retinal vasoproliferative disease in premature infants. While it can lead to blindness or leukocoria, it does not involve the anterior segment in a way that causes primary corneal enlargement."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:19:07.399Z",
+    "updatedAt": "2026-03-12T10:19:07.399Z"
+  },
+  {
+    "_id": "69b2935cb458e71ec3c61def",
+    "case_title": "Lymphatic Filariasis (Elephantiasis)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0161.mp4"
+    ],
+    "complain": "Severe limb swelling with skin thickening and deformity is most commonly caused by?",
+    "options": [
+      "Deep vein thrombosis",
+      "Lymphatic filariasis",
+      "Nephrotic syndrome",
+      "Cardiac failure"
+    ],
+    "correctOptionIndex": 1,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "B) Lymphatic filariasis"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Parasitic Etiology",
+            "description": "Lymphatic filariasis is caused by infection with parasitic nematodes (roundworms) like Wuchereria bancrofti, which are transmitted to humans through mosquito bites."
+          },
+          {
+            "label": "Lymphatic Obstruction",
+            "description": "The adult worms reside in the lymphatic system, causing inflammation and permanent damage to the vessels. This leads to impaired lymph drainage and chronic fluid accumulation."
+          },
+          {
+            "label": "Elephantiasis (Stage 3 Lymphedema)",
+            "description": "Chronic, untreated lymphedema progresses to 'elephantiasis,' characterized by massive swelling, extreme skin thickening (hyperkeratosis), and fibrotic tissue growth, resulting in severe deformity."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Deep vein thrombosis",
+          "explanation": "DVT causes acute, usually unilateral limb swelling and pain due to a blood clot in the deep veins. It does not lead to the chronic, massive fibrotic skin thickening seen in the video."
+        },
+        {
+          "choice": "C) Nephrotic syndrome",
+          "explanation": "This condition causes generalized, soft, pitting edema due to systemic protein loss in the urine. It typically affects both legs symmetrically and the face, without the localized skin hardening of filariasis."
+        },
+        {
+          "choice": "D) Cardiac failure",
+          "explanation": "Right-sided heart failure leads to bilateral pitting edema of the lower extremities from systemic venous congestion. While it causes swelling, it lacks the characteristic 'elephant-like' skin changes and severe deformity."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:20:12.647Z",
+    "updatedAt": "2026-03-12T10:20:12.647Z"
+  },
+  {
+    "_id": "69b293ceb458e71ec3c61df4",
+    "case_title": "Hypopyon",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0162.mp4"
+    ],
+    "complain": "A patient has layered white cells settling in the anterior chamber of the eye, visible as a fluid level. This finding is:",
+    "options": [
+      "Keratic precipitates",
+      "Hyphema",
+      "Congenital cataract",
+      "Hypopyon"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Hypopyon"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Leukocyte Accumulation",
+            "description": "A hypopyon is an accumulation of white blood cells (pus) in the anterior chamber of the eye. It is a hallmark sign of severe intraocular inflammation."
+          },
+          {
+            "label": "Gravity-Dependent Fluid Level",
+            "description": "The inflammatory cells are heavier than the aqueous humor and settle at the bottom of the anterior chamber, creating a distinct, horizontal fluid level as seen in the video."
+          },
+          {
+            "label": "Associated Conditions",
+            "description": "It is commonly associated with corneal ulcers (keratitis), severe uveitis (like Behcet’s disease or HLA-B27 associated uveitis), or endophthalmitis following surgery or trauma."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Keratic precipitates",
+          "explanation": "These are inflammatory cell deposits on the corneal endothelium. They appear as small dots or clumps rather than a cohesive, layered fluid level."
+        },
+        {
+          "choice": "B) Hyphema",
+          "explanation": "Hyphema is a collection of blood in the anterior chamber. While it also forms a fluid level, it is characterized by a red color rather than the white/yellow appearance of a hypopyon."
+        },
+        {
+          "choice": "C) Congenital cataract",
+          "explanation": "This refers to an opacity of the lens present from birth. It presents as a white pupil (leukocoria) but does not involve a fluid level in the anterior chamber."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:22:06.156Z",
+    "updatedAt": "2026-03-12T10:22:06.156Z"
+  },
+  {
+    "_id": "69b2940eb458e71ec3c61df9",
+    "case_title": "Tonometry (iCare Tonometer)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0163.mp4"
+    ],
+    "complain": "An instrument used to measure intraocular pressure during eye examination is called?",
+    "options": [
+      "Keratometer",
+      "Ophthalmoscope",
+      "Retinoscope",
+      "Tonometer"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Tonometer"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Intraocular Pressure (IOP)",
+            "description": "A tonometer is a diagnostic tool used by eye care professionals to measure the fluid pressure inside the eye (IOP). This measurement is crucial for diagnosing and monitoring glaucoma."
+          },
+          {
+            "label": "Rebound Tonometry",
+            "description": "The specific device shown in the video is a rebound tonometer (iCare). It works by using a small, lightweight probe that briefly contacts the cornea; the deceleration of the probe provides the pressure reading."
+          },
+          {
+            "label": "Patient Comfort",
+            "description": "Unlike traditional Goldmann applanation tonometry, rebound tonometry is quick and typically does not require the use of topical anesthetic (numbing) drops, making it ideal for children or sensitive patients."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Keratometer",
+          "explanation": "This instrument is used to measure the curvature of the anterior surface of the cornea. It is primarily used to assess astigmatism and to fit contact lenses."
+        },
+        {
+          "choice": "B) Ophthalmoscope",
+          "explanation": "An instrument used to examine the interior of the eye, particularly the retina, optic disc, and blood vessels (the fundus)."
+        },
+        {
+          "choice": "C) Retinoscope",
+          "explanation": "This tool is used during a vision exam to determine a person's refractive error and their need for corrective lenses (glasses or contacts)."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:23:10.832Z",
+    "updatedAt": "2026-03-12T10:23:10.832Z"
+  },
+  {
+    "_id": "69b29447b458e71ec3c61e0e",
+    "case_title": "Vibrio vulnificus Infection",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0164.mp4"
+    ],
+    "complain": "Which pathogen causes hemorrhagic bullae after seafood injury",
+    "options": [
+      "S. aureus",
+      "S. pyogenes",
+      "V. vulnificus",
+      "P. aeruginosa"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) V. vulnificus"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Marine Association",
+            "description": "Vibrio vulnificus is a Gram-negative bacterium found in warm seawater. Infection typically occurs after consuming raw seafood (like oysters) or when an open wound is exposed to seawater or seafood-related injuries."
+          },
+          {
+            "label": "Hemorrhagic Bullae",
+            "description": "The hallmark of a severe cutaneous Vibrio infection is the rapid development of painful, fluid-filled blisters that are often dark or blood-tinged (hemorrhagic bullae), as shown in the video."
+          },
+          {
+            "label": "Risk Factors",
+            "description": "Patients with chronic liver disease, cirrhosis, or iron overload states (like hemochromatosis) are at an extremely high risk for rapid progression to necrotizing fasciitis and fatal septicemia."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) S. aureus",
+          "explanation": "Staphylococcus aureus is a leading cause of common skin infections (cellulitis, impetigo, abscesses). While it can cause bullous impetigo, it is not associated with seafood injuries or the specific hemorrhagic appearance seen here."
+        },
+        {
+          "choice": "B) S. pyogenes",
+          "explanation": "Streptococcus pyogenes is the primary cause of 'flesh-eating' necrotizing fasciitis. While clinically similar in severity, it usually follows general trauma and lacks the specific link to warm marine environments."
+        },
+        {
+          "choice": "D) P. aeruginosa",
+          "explanation": "Pseudomonas aeruginosa is commonly associated with 'hot tub folliculitis' or green-tinted wound infections in burn patients. It does not typically present with rapid hemorrhagic bullae following seafood exposure."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:24:07.492Z",
+    "updatedAt": "2026-03-12T10:24:07.492Z"
+  },
+  {
+    "_id": "69b2947eb458e71ec3c61e19",
+    "case_title": "Intracerebral Hemorrhage (ICH)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0165.mp4"
+    ],
+    "complain": "Non-contrast CT brain: History of hypertension and sudden onset of left facial droop. What does the image show?",
+    "options": [
+      "Intraventricular haemorrhage",
+      "Subarachnoid haemorrhage",
+      "Intracerebral haemorrhage",
+      "Enhancing mass"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Intracerebral haemorrhage"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Hyperdensity on Non-contrast CT",
+            "description": "On a non-contrast CT scan, acute blood appears hyperdense (bright white). The image shows a large, bright area within the brain tissue."
+          },
+          {
+            "label": "Intraparenchymal Location",
+            "description": "The hemorrhage is located within the brain parenchyma (intracerebral). The mass effect from the blood can cause midline shift or compression of surrounding structures."
+          },
+          {
+            "label": "Hypertensive Association",
+            "description": "Long-term hypertension is the most common cause of spontaneous intracerebral hemorrhage, often occurring in specific locations like the basal ganglia, thalamus, pons, or cerebellum."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Intraventricular haemorrhage",
+          "explanation": "This involves blood within the ventricles of the brain. While an intracerebral hemorrhage can sometimes rupture into the ventricles, the primary lesion in this image is within the tissue itself."
+        },
+        {
+          "choice": "B) Subarachnoid haemorrhage",
+          "explanation": "This typically presents as hyperdensity within the sulci and basal cisterns (often described as a 'starfish' pattern) rather than a focal mass within the brain tissue."
+        },
+        {
+          "choice": "D) Enhancing mass",
+          "explanation": "An 'enhancing' mass refers to a lesion that brightens after the administration of intravenous contrast. Since this is a non-contrast CT, 'enhancement' cannot be assessed. Masses usually have surrounding edema and different density characteristics than acute blood."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:25:02.067Z",
+    "updatedAt": "2026-03-12T10:25:02.067Z"
+  },
+  {
+    "_id": "69b294c2b458e71ec3c61e1e",
+    "case_title": "Asteroid Hyalosis",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0166.mp4"
+    ],
+    "complain": "This clinical feature is associated with which of the following condition?",
+    "options": [
+      "Vitreous hemorrhage",
+      "Retinal detachment",
+      "Asteroid hyalosis",
+      "Endophthalmitis"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Asteroid hyalosis"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Asteroid Bodies",
+            "description": "Asteroid hyalosis is a common, benign condition where tiny white spherical opacities called asteroid bodies—made of calcium and phospholipids—are suspended within the vitreous humor."
+          },
+          {
+            "label": "Snow Globe Effect",
+            "description": "On examination, these particles look like 'stars in the night sky' or a 'snow globe'. They move as the eye moves but generally do not interfere with the patient's vision significantly."
+          },
+          {
+            "label": "Associations",
+            "description": "The condition is usually unilateral and age-related. While typically asymptomatic, it can make it difficult for clinicians to examine the underlying retina."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Vitreous hemorrhage",
+          "explanation": "This involves blood in the vitreous gel, appearing as red or dark clouds/streaks that often significantly obscure the retina and decrease visual acuity."
+        },
+        {
+          "choice": "B) Retinal detachment",
+          "explanation": "This occurs when the neurosensory retina separates from the retinal pigment epithelium. It appears as a grey, folded, or billowing membrane on examination."
+        },
+        {
+          "choice": "D) Endophthalmitis",
+          "explanation": "A severe intraocular inflammation, usually infectious, presenting with a painful red eye, rapid vision loss, and 'vitritis' (hazy vitreous with white cells) rather than distinct, crystalline particles."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:26:10.384Z",
+    "updatedAt": "2026-03-12T10:26:10.384Z"
+  },
+  {
+    "_id": "69b29530b458e71ec3c61e3f",
+    "case_title": "Raccoon Eyes (Basilar Skull Fracture)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0167.mp4"
+    ],
+    "complain": "A patient develops bilateral periorbital ecchymosis without direct eye trauma, following head injury. This sign indicates:",
+    "options": [
+      "Cavernous sinus thrombosis",
+      "Orbital cellulitis",
+      "Allergic shiners",
+      "Basilar skull fracture"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Basilar skull fracture"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Raccoon Eyes",
+            "description": "Bilateral periorbital ecchymosis, or 'raccoon eyes,' is a classic clinical sign of a basilar skull fracture. It specifically suggests a fracture of the anterior cranial fossa."
+          },
+          {
+            "label": "Tarsal Plate Sparing",
+            "description": "In a true basilar skull fracture, the ecchymosis does not typically cross the tarsal plate of the eyelid because the blood is blocked by the palpebral fascia."
+          },
+          {
+            "label": "Associated Signs",
+            "description": "Basilar skull fractures are often associated with Battle's sign (bruising over the mastoid process) and the leakage of cerebrospinal fluid from the nose (CSF rhinorrhea) or ears (CSF otorrhea)."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Cavernous sinus thrombosis",
+          "explanation": "This is a life-threatening blood clot in the cavernous sinus, usually caused by an infection. It typically presents with chemosis, proptosis, and ophthalmoplegia rather than isolated traumatic bruising."
+        },
+        {
+          "choice": "B) Orbital cellulitis",
+          "explanation": "An infection of the orbital contents. It presents with fever, eye pain, and swelling, but is distinguished by restricted or painful extraocular movements and proptosis."
+        },
+        {
+          "choice": "C) Allergic shiners",
+          "explanation": "These are dark circles under the eyes caused by venous congestion in the setting of chronic allergies. They are not bruiselike (ecchymotic) and are not related to head trauma."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:28:00.030Z",
+    "updatedAt": "2026-03-12T10:28:00.030Z"
+  },
+  {
+    "_id": "69b2954cb458e71ec3c61e4b",
+    "case_title": "Tuberculous Lymphadenitis (Scrofula)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0168.mp4"
+    ],
+    "complain": "A patient presents with chronic, painless cervical lymph node enlargement, often matted, sometimes with sinus formation. This condition is called?",
+    "options": [
+      "Acute bacterial lymphadenitis",
+      "Hodgkin lymphoma",
+      "Tuberculous lymphadenitis",
+      "Metastatic nodes"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Tuberculous lymphadenitis"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Scrofula",
+            "description": "Tuberculous lymphadenitis, or scrofula, is a common extrapulmonary manifestation of tuberculosis. It typically presents as a chronic, painless swelling in the cervical region."
+          },
+          {
+            "label": "Matted Appearance",
+            "description": "The lymph nodes often become 'matted' or stuck together due to inflammation of the surrounding connective tissue (periadenitis), which distinguishes them from the discrete nodes seen in lymphoma."
+          },
+          {
+            "label": "Cold Abscess and Sinuses",
+            "description": "Caseous necrosis within the node can lead to a 'cold abscess' (fluctuant but not warm/red). If left untreated, these can rupture through the skin to form chronic draining sinuses."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Acute bacterial lymphadenitis",
+          "explanation": "Usually presents with an acute onset of painful, warm, and erythematous (red) nodes, often secondary to a local pyogenic infection like pharyngitis."
+        },
+        {
+          "choice": "B) Hodgkin lymphoma",
+          "explanation": "Presents as painless, rubbery, and firm lymphadenopathy. While common in the neck, the nodes are typically discrete rather than matted and do not form draining sinuses."
+        },
+        {
+          "choice": "D) Metastatic nodes",
+          "explanation": "Metastatic nodes (e.g., from head and neck squamous cell carcinoma) are usually stony hard, fixed to underlying structures, and painless, but they rarely form sinuses unless there is skin invasion."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:28:28.721Z",
+    "updatedAt": "2026-03-12T10:28:28.721Z"
+  },
+  {
+    "_id": "69b29568b458e71ec3c61e50",
+    "case_title": "Small Bowel Obstruction",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0169.mp4"
+    ],
+    "complain": "Patient with abdominal pain and vomiting. What is the radiological diagnosis?",
+    "options": [
+      "Large bowel obstruction",
+      "Bowel perforation",
+      "Small bowel obstruction",
+      "Caecal volvulus"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6985953aaa274cdad78a58ba",
+    "department": "general surgery",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Small bowel obstruction"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Dilated Bowel Loops",
+            "description": "The abdominal X-ray demonstrates multiple dilated loops of bowel. In small bowel obstruction (SBO), loops are typically considered dilated when their diameter exceeds 3 cm."
+          },
+          {
+            "label": "Valvulae Conniventes",
+            "description": "The presence of valvulae conniventes (plicae circulares) is a defining feature of the small intestine. These are mucosal folds that traverse the entire width of the bowel lumen, distinguishing them from large bowel haustra."
+          },
+          {
+            "label": "Central Distribution",
+            "description": "Dilated small bowel loops tend to occupy the central portion of the abdominal cavity, whereas large bowel loops are usually found peripherally along the flanks."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Large bowel obstruction",
+          "explanation": "Large bowel obstruction (LBO) shows peripheral bowel dilation with haustral markings that do not cross the entire width of the bowel. The '3-6-9 rule' suggests LBO if the diameter is >6 cm for colon or >9 cm for cecum."
+        },
+        {
+          "choice": "B) Bowel perforation",
+          "explanation": "A perforated viscus typically presents radiographically as pneumoperitoneum (free air under the diaphragm), which is not the primary finding shown here."
+        },
+        {
+          "choice": "D) Caecal volvulus",
+          "explanation": "This is a specific type of LBO where the cecum twists. It usually appears as a large, 'coffee-bean' shaped air-filled loop directed from the right lower quadrant toward the left upper quadrant."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:28:56.316Z",
+    "updatedAt": "2026-03-12T10:28:56.316Z"
+  },
+  {
+    "_id": "69b29586b458e71ec3c61e55",
+    "case_title": "Pitting Edema",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0170.mp4"
+    ],
+    "complain": "Foot swelling + indentation on pressure occurs due to increased interstitial fluid from elevated hydrostatic pressure. This is?",
+    "options": [
+      "Lymphedema",
+      "Lipedema",
+      "Myxedema",
+      "Pitting edema"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Pitting edema"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Clinical Definition",
+            "description": "Pitting edema is characterized by a visible indentation that remains for several seconds after finger pressure is applied to a swollen area. This indicates the displacement of excess interstitial fluid."
+          },
+          {
+            "label": "Starling Forces",
+            "description": "It typically results from an imbalance in Starling forces, specifically an increase in capillary hydrostatic pressure (e.g., heart failure, chronic venous insufficiency) or a decrease in plasma oncotic pressure (e.g., nephrotic syndrome, cirrhosis)."
+          },
+          {
+            "label": "Dependent Distribution",
+            "description": "Due to gravity, pitting edema is most prominent in dependent parts of the body, such as the feet and ankles in ambulatory patients or the sacrum in bedridden patients."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Lymphedema",
+          "explanation": "Resulting from impaired lymphatic drainage, lymphedema is usually non-pitting, especially in chronic stages, because the accumulated fluid is protein-rich and promotes tissue fibrosis."
+        },
+        {
+          "choice": "B) Lipedema",
+          "explanation": "An abnormal accumulation of fat in the legs and hips. It is almost always non-pitting, often painful, and notably spares the feet (ending at the ankles)."
+        },
+        {
+          "choice": "C) Myxedema",
+          "explanation": "Associated with hypothyroidism, myxedema is a non-pitting edema caused by the deposition of mucopolysaccharides in the skin, which bind water and prevent fluid displacement."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:29:26.469Z",
+    "updatedAt": "2026-03-12T10:29:26.469Z"
+  },
+  {
+    "_id": "69b295a0b458e71ec3c61e5a",
+    "case_title": "Parkinson's Disease (Resting Jaw Tremor)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0171.mp4"
+    ],
+    "complain": "Resting jaw tremor that decreases with voluntary movement, without facial weakness, suggests?",
+    "options": [
+      "Tardive dyskinesia",
+      "Essential tremor",
+      "Parkinson disease",
+      "Hemifacial spasm"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Parkinson disease"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Resting Tremor",
+            "description": "A resting tremor is one of the cardinal motor symptoms of Parkinson's disease. While most famous in the hands ('pill-rolling'), it frequently affects the jaw, chin, or lips, appearing as a rhythmic 3–7 Hz oscillation when the muscles are at rest."
+          },
+          {
+            "label": "Inhibition by Movement",
+            "description": "A hallmark of parkinsonian tremor is that it typically decreases or completely disappears during purposeful, voluntary movement (such as talking, eating, or chewing) and during sleep."
+          },
+          {
+            "label": "Differential Diagnosis",
+            "description": "Isolated jaw tremor is a common early indicator of PD. Unlike essential tremor, which is an action tremor, the parkinsonian jaw tremor is most prominent when the patient is sedentary and not using the muscles of mastication."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Tardive dyskinesia",
+          "explanation": "Tardive dyskinesia is characterized by repetitive, involuntary, and complex movements like lip-smacking, tongue protrusion, or 'chewing' motions. These are dyskinetic rather than a rhythmic tremor and are usually associated with long-term neuroleptic use."
+        },
+        {
+          "choice": "B) Essential tremor",
+          "explanation": "Essential tremor is primarily an action or postural tremor. It would be most noticeable when the patient is trying to use their mouth or hold a specific jaw position, and it usually improves at rest."
+        },
+        {
+          "choice": "D) Hemifacial spasm",
+          "explanation": "This condition involves involuntary, irregular, and non-rhythmic twitching of the muscles on one side of the face, usually starting around the eye. It is caused by irritation of the facial nerve, not a central dopamine deficiency."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:29:52.135Z",
+    "updatedAt": "2026-03-12T10:29:52.135Z"
+  },
+  {
+    "_id": "69b295b4b458e71ec3c61e5f",
+    "case_title": "Tetanus (Trismus/Lockjaw)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0172.mp4"
+    ],
+    "complain": "Locked jaw is an early sign of which neurological infection?",
+    "options": [
+      "Meningitis",
+      "Encephalitis",
+      "Tetanus",
+      "Poliomyelitis"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Tetanus"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Trismus (Lockjaw)",
+            "description": "Trismus is one of the hallmark early signs of generalized tetanus. It is caused by the involuntary contraction (spasm) of the masseter muscles, which prevents the patient from fully opening their mouth."
+          },
+          {
+            "label": "Tetanospasmin Toxin",
+            "description": "Tetanus is caused by the neurotoxin 'tetanospasmin' produced by Clostridium tetani. This toxin blocks the release of inhibitory neurotransmitters (GABA and glycine), leading to overactive motor neurons and continuous muscle spasms."
+          },
+          {
+            "label": "Risus Sardonicus",
+            "description": "As the infection progresses, sustained spasms of the facial muscles can create a characteristic fixed, grimacing expression known as 'risus sardonicus' or the sardonic smile."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Meningitis",
+          "explanation": "Meningitis is the inflammation of the protective membranes covering the brain and spinal cord. It typically presents with a triad of fever, headache, and nuchal rigidity (neck stiffness), not isolated lockjaw."
+        },
+        {
+          "choice": "B) Encephalitis",
+          "explanation": "Encephalitis refers to acute inflammation of the brain tissue, usually due to a viral infection. Symptoms include altered mental status, personality changes, and seizures, rather than localized muscle spasms of the jaw."
+        },
+        {
+          "choice": "D) Poliomyelitis",
+          "explanation": "Polio is a viral disease that attacks the motor neurons in the spinal cord, causing asymmetric flaccid paralysis and muscle wasting, which is the opposite of the spastic paralysis seen in tetanus."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:30:12.024Z",
+    "updatedAt": "2026-03-12T10:30:12.024Z"
+  },
+  {
+    "_id": "69b295d1b458e71ec3c61e64",
+    "case_title": "Lung Cancer (Chest X-ray Analysis)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0173.mp4"
+    ],
+    "complain": "Which structure is visibly normal in this patient with lung cancer?",
+    "options": [
+      "Left upper zone",
+      "Right Hilum",
+      "Right paratracheal stripe",
+      "Left lower zone"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f5028d",
+    "department": "pulmonology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Left lower zone"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Radiographic Abnormalities",
+            "description": "The chest X-ray (CXR) shows a large, dense mass in the left upper zone, which is the primary site of the lung cancer. There is also evident bulky enlargement of the right hilum and widening of the mediastinal contours."
+          },
+          {
+            "label": "Identifying the Normal Zone",
+            "description": "While the upper and middle segments of the lungs show significant pathology (mass and lymphadenopathy), the left lower zone appears clear, with normal pulmonary vascular markings and a sharp costophrenic angle."
+          },
+          {
+            "label": "Clinical Context",
+            "description": "CXR is often the first imaging modality used to detect lung cancer, though CT scans are required for better characterization of the mass and staging of hilar/mediastinal nodes."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Left upper zone",
+          "explanation": "This area is clearly abnormal, containing the primary dense tumor mass that obscures normal lung parenchyma."
+        },
+        {
+          "choice": "B) Right Hilum",
+          "explanation": "The right hilum appears enlarged and bulky in this image, which is a common sign of hilar lymphadenopathy (metastatic spread) in patients with lung cancer."
+        },
+        {
+          "choice": "C) Right paratracheal stripe",
+          "explanation": "The right paratracheal stripe is often widened in lung cancer due to the enlargement of paratracheal lymph nodes, indicating mediastinal involvement."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:30:41.980Z",
+    "updatedAt": "2026-03-12T10:30:41.980Z"
+  },
+  {
+    "_id": "69b295e7b458e71ec3c61e69",
+    "case_title": "Tonsillectomy",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0174.mp4"
+    ],
+    "complain": "Absent palatine tonsils + smooth tonsillar fossae on exam indicate prior",
+    "options": [
+      "Peritonsillar abscess",
+      "Adenoiditis",
+      "Tonsillectomy",
+      "Pharyngitis"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6985953baa274cdad78a58c7",
+    "department": "otolaryngology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Tonsillectomy"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Surgical Removal",
+            "description": "Tonsillectomy is a common surgical procedure involving the complete removal of the palatine tonsils, typically performed for recurrent infections or obstructive sleep apnea."
+          },
+          {
+            "label": "Tonsillar Fossae",
+            "description": "The spaces where the tonsils used to sit are known as the tonsillar fossae. After a successful surgery and recovery, these areas appear smooth and mucosalized, with no visible lymphoid tissue."
+          },
+          {
+            "label": "Clinical Examination",
+            "description": "As demonstrated in the video, when the patient opens their mouth wide, the absence of the tonsils between the anterior and posterior tonsillar pillars confirms a history of tonsillectomy."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Peritonsillar abscess",
+          "explanation": "This is a collection of pus that develops near the tonsils, usually as a complication of tonsillitis. It causes bulging of the soft palate and displacement of the uvula, rather than the absence of tonsils."
+        },
+        {
+          "choice": "B) Adenoiditis",
+          "explanation": "This refers to the inflammation of the adenoids, which are lymphoid tissues located in the nasopharynx (behind the nose). They cannot be visualized during a standard oral exam."
+        },
+        {
+          "choice": "D) Pharyngitis",
+          "explanation": "This is a general term for inflammation of the throat (pharynx). While it causes redness and swelling, it does not cause the palatine tonsils to disappear from the oropharynx."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:31:03.320Z",
+    "updatedAt": "2026-03-12T10:31:03.320Z"
+  },
+  {
+    "_id": "69b29602b458e71ec3c61e6e",
+    "case_title": "Earlobe Keloid",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0175.mp4"
+    ],
+    "complain": "A patient develops a firm, raised scar extending beyond the original piercing site on the earlobe. This lesion is?",
+    "options": [
+      "Dermatofibroma",
+      "Hypertrophic scar",
+      "Neurofibroma",
+      "Keloid"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50295",
+    "department": "dermatology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Keloid"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Growth Beyond Boundaries",
+            "description": "A keloid is a type of raised scar that grows significantly beyond the edges of the original skin injury. This distinguishes it from a hypertrophic scar, which remains within the wound's borders."
+          },
+          {
+            "label": "Collagen Overproduction",
+            "description": "Keloids result from an overgrowth of granulation tissue and an excessive deposition of collagen (specifically Type I and III) during the wound healing process."
+          },
+          {
+            "label": "Common Triggers",
+            "description": "In the earlobe, keloids are frequently triggered by trauma from ear piercings. They are more common in individuals with darker skin pigmentation and can be itchy, painful, or cause significant cosmetic concern."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Dermatofibroma",
+          "explanation": "A common, benign fibrous nodule that typically appears on the lower legs. It exhibits a 'dimple sign' when pinched and is not typically associated with ear piercings or large exophytic growth."
+        },
+        {
+          "choice": "B) Hypertrophic scar",
+          "explanation": "While also a raised scar, it does not extend beyond the original site of trauma and often tends to flatten or regress spontaneously over months to years."
+        },
+        {
+          "choice": "C) Neurofibroma",
+          "explanation": "A benign nerve sheath tumor that presents as a soft, fleshy, skin-colored papule or nodule. It is not a result of abnormal scarring from a piercing."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:31:30.940Z",
+    "updatedAt": "2026-03-12T10:31:30.940Z"
+  },
+  {
+    "_id": "69b29617b458e71ec3c61e73",
+    "case_title": "Meibomitis (Meibomian Gland Dysfunction)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0176.mp4"
+    ],
+    "complain": "A patient has inflamed, tender eyelid margins with blocked meibomian glands causing gritty eye sensation. This condition is:",
+    "options": [
+      "Meibomitis",
+      "Chalazion",
+      "Hordeolum",
+      "Conjunctivitis"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Meibomitis"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Meibomian Gland Dysfunction",
+            "description": "Meibomitis, often part of Meibomian Gland Dysfunction (MGD), involves inflammation and obstruction of the oil-producing glands in the eyelids. This leads to a deficiency in the tear film's lipid layer."
+          },
+          {
+            "label": "Altered Meibum",
+            "description": "As shown in the video, the normally clear, oily secretions (meibum) become thick, opaque, and yellowish (resembling toothpaste) when expressed. This thickened material plugs the gland orifices."
+          },
+          {
+            "label": "Evaporative Dry Eye",
+            "description": "Without an adequate lipid layer to prevent evaporation, the watery part of the tears dries out quickly, leading to symptoms like grittiness, burning, and a 'foreign body' sensation."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Chalazion",
+          "explanation": "A chalazion is a chronic, non-tender focal lump in the eyelid caused by a granulomatous reaction to a blocked gland. It is a discrete nodule rather than a diffuse inflammation of the entire lid margin."
+        },
+        {
+          "choice": "C) Hordeolum",
+          "explanation": "Commonly known as a stye, this is an acute, painful bacterial infection of the eyelid glands. It presents as a localized, red, tender bump near the edge of the eyelid."
+        },
+        {
+          "choice": "D) Conjunctivitis",
+          "explanation": "This is inflammation of the conjunctiva (the 'pink eye'). While it causes redness and irritation, it involves the surface of the eye and inner lids rather than primary blockage of the eyelid's meibomian glands."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:31:51.355Z",
+    "updatedAt": "2026-03-12T10:31:51.355Z"
+  },
+  {
+    "_id": "69b2962ab458e71ec3c61e78",
+    "case_title": "Cerebral Atrophy",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0177.mp4"
+    ],
+    "complain": "Patient with longstanding history of intermittent headache. What does the image show?",
+    "options": [
+      "Subarachnoid haemorrhage",
+      "Normal appearances",
+      "Subdural collection",
+      "Cerebral atrophy"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f5028a",
+    "department": "neurology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Cerebral atrophy"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Widened Sulci",
+            "description": "Cerebral atrophy is characterized by the shrinking of brain tissue, which leads to the apparent widening and deepening of the cortical sulci (the grooves on the brain's surface)."
+          },
+          {
+            "label": "Ventriculomegaly",
+            "description": "As the brain parenchyma loses volume, the fluid-filled ventricles undergo compensatory enlargement (hydrocephalus ex vacuo) to fill the extra space within the skull."
+          },
+          {
+            "label": "Age-Related vs. Pathological",
+            "description": "While some degree of atrophy is normal with aging, significant or rapid atrophy can be associated with neurodegenerative diseases like Alzheimer's or chronic ischemic changes."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Subarachnoid haemorrhage",
+          "explanation": "SAH would appear as acute hyperdensity (bright white) filling the sulci and basal cisterns on a non-contrast CT, representing blood in the subarachnoid space."
+        },
+        {
+          "choice": "B) Normal appearances",
+          "explanation": "The scan clearly shows prominent sulci and enlarged ventricles that are beyond the expected appearance for a healthy young adult brain."
+        },
+        {
+          "choice": "C) Subdural collection",
+          "explanation": "A subdural hematoma or hygroma would appear as a crescent-shaped collection along the inner table of the skull, typically causing mass effect or midline shift."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:32:10.690Z",
+    "updatedAt": "2026-03-12T10:32:10.690Z"
+  },
+  {
+    "_id": "69b29644b458e71ec3c61e7d",
+    "case_title": "Epidermoid Cyst",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0178.mp4"
+    ],
+    "complain": "Painless, slow-growing skin nodule with a central punctum caused by implanted epidermal cells cyst contents mainly consist of?",
+    "options": [
+      "Caseous necrosis",
+      "Triglycerides",
+      "Cholesterol crystals",
+      "Keratin Debris"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6981b5a0d56110d5b5f50295",
+    "department": "dermatology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Keratin Debris"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Keratinous Content",
+            "description": "Epidermoid cysts (often misnamed sebaceous cysts) are lined with stratified squamous epithelium that produces keratin. The 'cheesy' white material expressed in the video is macerated keratin debris."
+          },
+          {
+            "label": "Central Punctum",
+            "description": "A classic clinical feature of an epidermoid cyst is the presence of a central punctum, which represents the plugged opening of the hair follicle from which the cyst originated."
+          },
+          {
+            "label": "Development",
+            "description": "These cysts form when epidermal cells become trapped in the dermis, either congenitally or due to trauma, and continue to grow and shed keratin into a confined space."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Caseous necrosis",
+          "explanation": "This is a form of cell death characterized by a crumbly, cheese-like appearance, classically seen in granulomatous inflammations like tuberculosis, not in simple epidermal cysts."
+        },
+        {
+          "choice": "B) Triglycerides",
+          "explanation": "Triglycerides and oily sebum are the primary components of 'true' sebaceous cysts (steatocystomas), which are much rarer than the common keratin-filled epidermoid cyst."
+        },
+        {
+          "choice": "C) Cholesterol crystals",
+          "explanation": "While cholesterol can be found in various chronic inflammatory lesions or 'atheromas,' it is not the primary structural component of the debris within an epidermoid cyst."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:32:36.010Z",
+    "updatedAt": "2026-03-12T10:32:36.010Z"
+  },
+  {
+    "_id": "69b29662b458e71ec3c61e82",
+    "case_title": "Conjunctival Varix",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0179.mp4"
+    ],
+    "complain": "A patient has dilated, tortuous blood vessels on the conjunctiva, often seen with aging or chronic irritation. This finding is:",
+    "options": [
+      "Conjunctival varix",
+      "Pinguecula",
+      "Pterygium",
+      "Chemosis"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f50290",
+    "department": "ophthalmology",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Conjunctival varix"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Vascular Dilation",
+            "description": "A conjunctival varix is a benign, localized dilation of a conjunctival vein. It typically appears as a dark blue or purple, tortuous vessel on the bulbar conjunctiva, as seen in the video."
+          },
+          {
+            "label": "Clinical Presentation",
+            "description": "These lesions are usually asymptomatic and are often discovered incidentally during a routine eye exam. They may become more prominent when venous pressure increases (e.g., coughing or Valsalva maneuver)."
+          },
+          {
+            "label": "Etiology",
+            "description": "While the exact cause is often unknown, they are frequently associated with aging and chronic ocular irritation. They are generally harmless but can rarely cause minor subconjunctival hemorrhage."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Pinguecula",
+          "explanation": "A common, benign yellowish-white deposit of protein or fat on the conjunctiva. It is a tissue growth rather than a primary dilation of blood vessels."
+        },
+        {
+          "choice": "C) Pterygium",
+          "explanation": "A wedge-shaped fibrovascular growth of the conjunctiva that extends onto the cornea. It is a more complex tissue proliferation compared to a simple varix."
+        },
+        {
+          "choice": "D) Chemosis",
+          "explanation": "This refers to edema (swelling) of the conjunctiva, appearing as a jelly-like or clear blister on the eye surface, typically due to severe allergies or inflammation."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:33:06.624Z",
+    "updatedAt": "2026-03-12T10:33:06.624Z"
+  },
+  {
+    "_id": "69b29676b458e71ec3c61e87",
+    "case_title": "Hutchinson Teeth (Congenital Syphilis)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0180.mp4"
+    ],
+    "complain": "A patient has notched, peg-shaped upper central incisors, classically seen in congenital infection. This finding is?",
+    "options": [
+      "Amelogenesis imperfecta",
+      "Enamel hypoplasia",
+      "Hutchinson teeth",
+      "Fluorosis"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f50297",
+    "department": "pediatrics",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Hutchinson teeth"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Characteristic Morphology",
+            "description": "Hutchinson teeth are characterized by permanent upper central incisors that are peg-shaped (wider at the base than at the biting edge) and feature a prominent semilunar notch in the center of the incisal edge."
+          },
+          {
+            "label": "Congenital Syphilis",
+            "description": "This dental deformity is a late manifestation of congenital syphilis. It results from the infection of the developing tooth germ by the bacterium Treponema pallidum."
+          },
+          {
+            "label": "Hutchinson's Triad",
+            "description": "It is one component of the classic diagnostic triad for congenital syphilis, which also includes interstitial keratitis (cloudy cornea) and sensorineural hearing loss (8th cranial nerve deafness)."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Amelogenesis imperfecta",
+          "explanation": "A group of genetic disorders that affect the quality and quantity of dental enamel, leading to thin or pitted enamel across many teeth, rather than a specific notched shape of the incisors."
+        },
+        {
+          "choice": "B) Enamel hypoplasia",
+          "explanation": "A general term for an enamel defect. While it can cause pits, grooves, or horizontal lines (e.g., from severe childhood illness or malnutrition), it does not typically produce the specific peg-and-notch morphology."
+        },
+        {
+          "choice": "D) Fluorosis",
+          "explanation": "Resulting from excessive fluoride intake during tooth development, it presents as white streaks, opaque patches, or brown mottling/pitting. It affects the color and texture of the surface, not the fundamental shape of the tooth."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:33:26.745Z",
+    "updatedAt": "2026-03-12T10:33:26.745Z"
+  },
+  {
+    "_id": "69b2968bb458e71ec3c61e8c",
+    "case_title": "Verrucous Carcinoma",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0181.mp4"
+    ],
+    "complain": "This clinical feature is associated with which of the following condition?",
+    "options": [
+      "Oral lichen planus",
+      "Oral leukoplakia",
+      "Invasive mucormycosis",
+      "Verrucous carcinoma"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6985953baa274cdad78a58c7",
+    "department": "otolaryngology",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Verrucous carcinoma"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Warty Appearance",
+            "description": "Verrucous carcinoma is a low-grade variant of squamous cell carcinoma. It typically presents as a slow-growing, painless, exophytic mass with a characteristic 'warty' or cauliflower-like white surface."
+          },
+          {
+            "label": "Local Invasion",
+            "description": "While it is locally aggressive and can invade deep into underlying tissues and bone, it is notable for having a very low potential for regional or distant metastasis compared to traditional squamous cell carcinoma."
+          },
+          {
+            "label": "Risk Factors",
+            "description": "It is most commonly associated with long-term tobacco use, specifically smokeless tobacco (chewing tobacco or snuff), often referred to as 'snuff dipper's cancer'."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Oral lichen planus",
+          "explanation": "A chronic inflammatory condition that usually presents with Wickham striae (lacy white lines) or painful erosions on the buccal mucosa or tongue, rather than a large tumorous growth."
+        },
+        {
+          "choice": "B) Oral leukoplakia",
+          "explanation": "Leukoplakia is a clinical term for a white patch that doesn't rub off. While it can be a precursor to cancer, it typically lacks the thick, exophytic, and verrucous architecture seen in this case."
+        },
+        {
+          "choice": "C) Invasive mucormycosis",
+          "explanation": "An acute, life-threatening fungal infection, especially in diabetics. It causes rapid, massive tissue necrosis with a black, charred appearance (eschar) due to vascular invasion and ischemia."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:33:47.234Z",
+    "updatedAt": "2026-03-12T10:33:47.234Z"
+  },
+  {
+    "_id": "69b296a4b458e71ec3c61e91",
+    "case_title": "Anasarca (Protein-Losing Enteropathy)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0182.mp4"
+    ],
+    "complain": "Which of the following GI conditions may cause anasarca from protein loss?",
+    "options": [
+      "Protein-losing enteropathy",
+      "Celiac disease",
+      "Ulcerative colitis",
+      "Pancreatitis"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6985953aaa274cdad78a58b7",
+    "department": "internal medicine",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Protein-losing enteropathy"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Definition of Anasarca",
+            "description": "Anasarca is a medical condition characterized by extreme generalized edema, which is widespread swelling of the skin due to effusion of fluid into the extracellular space."
+          },
+          {
+            "label": "Mechanism of Protein Loss",
+            "description": "Protein-losing enteropathy (PLE) refers to a group of conditions where significant amounts of serum proteins (especially albumin) are lost through the gastrointestinal tract."
+          },
+          {
+            "label": "Reduced Oncotic Pressure",
+            "description": "The loss of albumin leads to severe hypoalbuminemia. This reduces plasma oncotic pressure, allowing fluid to leak out of the blood vessels and into the surrounding tissues, resulting in the massive pitting edema shown in the video."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Celiac disease",
+          "explanation": "While Celiac disease can lead to malabsorption and secondary malnutrition, it is not primarily defined by the direct, massive loss of serum proteins into the gut lumen as seen in PLE."
+        },
+        {
+          "choice": "C) Ulcerative colitis",
+          "explanation": "Severe ulcerative colitis can involve protein loss through an inflamed or ulcerated mucosa, but it typically presents with bloody diarrhea and abdominal pain rather than isolated chronic anasarca."
+        },
+        {
+          "choice": "D) Pancreatitis",
+          "explanation": "Pancreatitis is an acute inflammatory condition. While it can cause fluid sequestration ('third spacing') and localized edema, it is not a chronic condition of GI protein loss leading to systemic anasarca."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:34:12.534Z",
+    "updatedAt": "2026-03-12T10:34:12.534Z"
+  },
+  {
+    "_id": "69b296b6b458e71ec3c61e96",
+    "case_title": "Baker's Cyst (Popliteal Cyst)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0183.mp4"
+    ],
+    "complain": "A patient presents with a soft, fluctuant swelling in the popliteal fossa, often associated with knee pathology. This condition is:",
+    "options": [
+      "Baker's cyst",
+      "Popliteal aneurysm",
+      "Lipoma",
+      "Deep vein thrombosis"
+    ],
+    "correctOptionIndex": 0,
+    "category": "6981b5a0d56110d5b5f5028e",
+    "department": "orthopedics",
+    "explain": {
+      "correct_answer": {
+        "choice": "A) Baker's cyst"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Fluid Accumulation",
+            "description": "A Baker's cyst is a fluid-filled distension of the gastrocnemio-semimembranosus bursa located in the popliteal fossa behind the knee."
+          },
+          {
+            "label": "Secondary Nature",
+            "description": "It is usually not a primary condition but rather develops due to an underlying knee joint problem that causes excess synovial fluid production, such as osteoarthritis, rheumatoid arthritis, or a meniscal tear."
+          },
+          {
+            "label": "Ultrasound Findings",
+            "description": "As seen in the video, ultrasound is excellent for confirming the diagnosis, showing a well-defined cystic mass that typically demonstrates a 'neck' communicating with the knee joint space."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "B) Popliteal aneurysm",
+          "explanation": "This is a dilation of the popliteal artery. It typically presents as a pulsatile mass and would show turbulent arterial flow on Doppler ultrasound rather than clear fluid."
+        },
+        {
+          "choice": "C) Lipoma",
+          "explanation": "A common benign fatty tumor. While it can occur in the popliteal area, it is a solid soft-tissue mass, not a fluctuant fluid-filled cyst."
+        },
+        {
+          "choice": "D) Deep vein thrombosis",
+          "explanation": "DVT involves a blood clot in the deep veins of the leg. It causes generalized calf swelling, pain, and warmth rather than a localized, cystic swelling in the popliteal fossa."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:34:30.064Z",
+    "updatedAt": "2026-03-12T10:34:30.064Z"
+  },
+  {
+    "_id": "69b296eeb458e71ec3c61ea0",
+    "case_title": "Sclerotherapy for Varicose Veins",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0185.mp4"
+    ],
+    "complain": "A procedure in which a chemical agent is injected into a vein to cause fibrosis and closure (commonly for varicose veins) is called:",
+    "options": [
+      "Endovenous ablation",
+      "Phlebectomy",
+      "Angioplasty",
+      "Sclerotherapy"
+    ],
+    "correctOptionIndex": 3,
+    "category": "6985953aaa274cdad78a58ba",
+    "department": "general surgery",
+    "explain": {
+      "correct_answer": {
+        "choice": "D) Sclerotherapy"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Chemical Induction of Fibrosis",
+            "description": "Sclerotherapy involves the injection of a sclerosing agent (liquid or foam) directly into the affected vein. The chemical causes irritation and inflammation of the vessel lining (endothelium)."
+          },
+          {
+            "label": "Vein Closure",
+            "description": "Following the injection, the vein walls stick together and form a scar (fibrosis). This effectively closes off the diseased vein, and blood is naturally rerouted to healthier veins."
+          },
+          {
+            "label": "Clinical Application",
+            "description": "It is a minimally invasive gold-standard treatment for small to medium-sized varicose veins and telangiectasias (spider veins), often performed in an outpatient setting without general anesthesia."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Endovenous ablation",
+          "explanation": "This technique uses thermal energy (either laser or radiofrequency) rather than a chemical agent to heat and seal the vein shut."
+        },
+        {
+          "choice": "B) Phlebectomy",
+          "explanation": "Also known as ambulatory phlebectomy, this is a surgical procedure where the varicose veins are physically removed through small 'stab' incisions in the skin."
+        },
+        {
+          "choice": "C) Angioplasty",
+          "explanation": "This is a procedure used to widen narrowed or obstructed arteries (not veins) using a balloon-tipped catheter, typically used in cases of atherosclerosis."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:35:26.530Z",
+    "updatedAt": "2026-03-12T10:35:26.530Z"
+  },
+  {
+    "_id": "69b2970bb458e71ec3c61ea5",
+    "case_title": "Corrigan's Pulse (Aortic Regurgitation)",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0186.mp4"
+    ],
+    "complain": "This clinical feature is associated with which of the following condition?",
+    "options": [
+      "Pulsus paradoxus",
+      "Pulsus bisferiens",
+      "Corrigan's pulse",
+      "Pulsus alternans"
+    ],
+    "correctOptionIndex": 2,
+    "category": "6981b5a0d56110d5b5f50294",
+    "department": "cardiology",
+    "explain": {
+      "correct_answer": {
+        "choice": "C) Corrigan's pulse"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Visible Carotid Pulsations",
+            "description": "Also known as 'dancing carotids', Corrigan's pulse refers to the prominent, forceful distension and rapid collapse of the carotid arteries in the neck visible on inspection."
+          },
+          {
+            "label": "Pathophysiology",
+            "description": "It is a hallmark sign of chronic, severe aortic regurgitation. The large stroke volume ejected into the aorta causes the rapid pulse rise, followed by a rapid fall due to blood leaking back into the left ventricle and peripheral runoff."
+          },
+          {
+            "label": "Wide Pulse Pressure",
+            "description": "This finding is the visual equivalent of the 'water-hammer' (Watson's) pulse felt at the wrist, reflecting a significantly widened pulse pressure."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Pulsus paradoxus",
+          "explanation": "An exaggerated drop in systolic blood pressure (>10 mmHg) during inspiration. It is classically associated with cardiac tamponade and severe asthma/COPD, but is not a visible neck pulsation."
+        },
+        {
+          "choice": "B) Pulsus bisferiens",
+          "explanation": "A pulse with two systolic peaks, often found in patients with combined aortic stenosis and regurgitation. While associated with AR, it is identified by palpation rather than visual 'dancing' of the carotids."
+        },
+        {
+          "choice": "D) Pulsus alternans",
+          "explanation": "Characterized by alternating strong and weak heartbeats, indicating severe left ventricular failure. It is detected during blood pressure measurement or palpation, not by visual inspection of the neck."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:35:55.005Z",
+    "updatedAt": "2026-03-12T10:35:55.005Z"
+  },
+  {
+    "_id": "69b2977fb458e71ec3c61eaa",
+    "case_title": "Phantom Limb Syndrome",
+    "clinicalImages": [
+      "https://gtdthousandways1.s3.ap-south-1.amazonaws.com/quizzes/quizz_0187.mp4"
+    ],
+    "complain": "An amputee experiences painful sensations felt in a limb that no longer exists. This condition is called:",
+    "options": [
+      "Jumping stump syndrome",
+      "Phantom limb syndrome",
+      "Complex regional pain synd.",
+      "Neuropathic pain"
+    ],
+    "correctOptionIndex": 1,
+    "category": "6981b5a0d56110d5b5f5028e",
+    "department": "orthopedics",
+    "explain": {
+      "correct_answer": {
+        "choice": "B) Phantom limb syndrome"
+      },
+      "key_features": {
+        "points": [
+          {
+            "label": "Neural Plasticity",
+            "description": "Phantom limb syndrome is a result of the brain's attempt to reorganize sensory maps after a limb is lost. The somatosensory cortex continues to process signals as if the limb were still present."
+          },
+          {
+            "label": "Sensory Perception",
+            "description": "Patients may feel a variety of sensations, including tingling, itching, or temperature changes. In many cases, these sensations are intensely painful, often described as stabbing, burning, or crushing."
+          },
+          {
+            "label": "Therapeutic Approaches",
+            "description": "Treatment often involves a combination of pharmacological therapy and specialized techniques like Mirror Therapy, which uses visual feedback to 'trick' the brain and alleviate the perceived pain."
+          }
+        ]
+      },
+      "incorrect_options": [
+        {
+          "choice": "A) Jumping stump syndrome",
+          "explanation": "This is a rare condition involving involuntary, rhythmic, or semi-rhythmic muscle contractions (spasms) localized to the amputation stump itself."
+        },
+        {
+          "choice": "C) Complex regional pain synd.",
+          "explanation": "CRPS is a chronic pain condition that typically affects a limb after an injury or surgery, but the pain is felt in an existing limb and is associated with swelling and skin changes."
+        },
+        {
+          "choice": "D) Neuropathic pain",
+          "explanation": "While phantom limb pain is a specific type of neuropathic pain (pain from nerve damage), it is not the most precise clinical diagnosis for the specific phenomenon described."
+        }
+      ]
+    },
+    "__v": 0,
+    "createdAt": "2026-03-12T10:37:51.637Z",
+    "updatedAt": "2026-03-12T10:37:51.637Z"
   }
 ]

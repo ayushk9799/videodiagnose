@@ -8,3 +8,4 @@ out
 
 # Downloaded quiz assets (large binaries, re-downloadable)
 public/assets
+output

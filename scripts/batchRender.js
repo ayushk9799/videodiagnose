@@ -111,6 +111,9 @@ function resolveLocalAssets(quiz, manifest) {
 }
 
 // ── Concurrency Runner ────────────────────────────────────────────────
+/**
+ * Runs tasks with a specified concurrency limit.
+ */
 async function runWithConcurrency(tasks, limit) {
     const results = [];
     let index = 0;
@@ -183,8 +186,9 @@ async function main() {
     // 5. Filter out already-rendered quizzes if --force is not set
     if (config.skipExisting) {
         const before = quizzes.length;
-        quizzes = quizzes.filter((q) => {
-            const outputPath = path.join(OUTPUT_DIR, `quiz_${q._id}.mp4`);
+        quizzes = quizzes.filter((q, idx) => {
+            const paddedIdx = String(idx + 1 + config.offset).padStart(4, '0');
+            const outputPath = path.join(OUTPUT_DIR, `quizz_${paddedIdx}.mp4`);
             return !fs.existsSync(outputPath);
         });
         const skipped = before - quizzes.length;
@@ -229,14 +233,16 @@ async function main() {
         return async () => {
             const quizId = quiz._id;
             const caseTitle = quiz.case_title || 'Untitled';
-            const outputPath = path.join(OUTPUT_DIR, `quiz_${quizId}.mp4`);
+            
+            const absoluteIdx = idx + 1 + config.offset;
+            const paddedIdx = String(absoluteIdx).padStart(4, '0');
+            const outputPath = path.join(OUTPUT_DIR, `quizz_${paddedIdx}.mp4`);
 
             // Resolve local assets
             const resolvedQuiz = resolveLocalAssets(quiz, manifest);
             const plainQuiz = JSON.parse(JSON.stringify(resolvedQuiz));
 
-            const quizNum = idx + 1;
-            console.log(`\n🎬 [${quizNum}/${totalToRender}] Rendering: "${caseTitle}" (${quizId})`);
+            console.log(`\n🎬 [${idx + 1}/${totalToRender}] Rendering: "${caseTitle}" (${quizId}) -> quizz_${paddedIdx}.mp4`);
 
             try {
                 await renderMedia({
@@ -244,7 +250,7 @@ async function main() {
                     serveUrl: bundleLocation,
                     codec: 'h264',
                     outputLocation: outputPath,
-                    inputProps: { quiz: plainQuiz },
+                    inputProps: { quiz: plainQuiz, audioIndex: idx },
                 });
 
                 completed++;
