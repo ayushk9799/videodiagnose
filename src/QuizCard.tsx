@@ -1,4 +1,4 @@
-import { AbsoluteFill, Img, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig, interpolate, spring } from 'remotion';
+import { AbsoluteFill, Img, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig, interpolate, spring, Loop } from 'remotion';
 
 const isVideoFile = (src: string) => /\.(mp4|webm|mov)$/i.test(src);
 
@@ -88,11 +88,13 @@ export const QuizCard: React.FC<{ quiz: any }> = ({ quiz }) => {
                     transform: `scale(${imageScale})`,
                 }}>
                     {isVideo ? (
-                        <OffthreadVideo
-                            src={clinicalSrc}
-                            muted
-                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        />
+                        <Loop durationInFrames={quiz.videoDurationInFrames || 240}>
+                            <OffthreadVideo
+                                src={clinicalSrc}
+                                muted
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
+                        </Loop>
                     ) : (
                         <Img
                             src={clinicalSrc}
@@ -118,7 +120,7 @@ export const QuizCard: React.FC<{ quiz: any }> = ({ quiz }) => {
                         <div
                             key={optIdx}
                             style={{
-                                fontSize: 50,
+                                fontSize: 46,
                                 fontWeight: 500,
                                 display: 'flex',
                                 alignItems: 'flex-start',
@@ -148,18 +150,6 @@ export const QuizCard: React.FC<{ quiz: any }> = ({ quiz }) => {
                 💬 Comment your answer!
             </div>
 
-            {/* Branding/Watermark */}
-            <div style={{
-                position: 'absolute',
-                bottom: 60,
-                fontSize: 26,
-                color: '#222222',
-                fontWeight: 600,
-                letterSpacing: 2,
-                opacity: interpolate(frame, [100, 120], [0, 1], { extrapolateRight: 'clamp' }),
-            }}>
-                @diagnose_it
-            </div>
         </AbsoluteFill>
     );
 };

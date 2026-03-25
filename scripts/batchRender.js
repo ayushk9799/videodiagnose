@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('dotenv').config();
 const { bundle } = require('@remotion/bundler');
-const { getCompositions, renderMedia } = require('@remotion/renderer');
+const { getCompositions, renderMedia, getVideoMetadata } = require('@remotion/renderer');
 const { enableTailwind } = require('@remotion/tailwind-v4');
 const path = require('path');
 const fs = require('fs');
@@ -241,6 +241,21 @@ async function main() {
             // Resolve local assets
             const resolvedQuiz = resolveLocalAssets(quiz, manifest);
             const plainQuiz = JSON.parse(JSON.stringify(resolvedQuiz));
+
+            // Fetch video duration if it's a video
+            if (plainQuiz.clinicalImages && plainQuiz.clinicalImages.length > 0) {
+                const src = plainQuiz.clinicalImages[0];
+                const isVideo = /\.(mp4|webm|mov)$/i.test(src);
+                if (isVideo) {
+                    try {
+                        const localPath = src.startsWith('http') ? src : path.resolve(__dirname, '../public', src);
+                        const metadata = await getVideoMetadata(localPath);
+                        plainQuiz.videoDurationInFrames = Math.max(1, Math.floor(metadata.durationInSeconds * composition.fps));
+                    } catch (err) {
+                        console.warn(`   ⚠️  Could not fetch metadata for ${src}: ${err.message}`);
+                    }
+                }
+            }
 
             console.log(`\n🎬 [${idx + 1}/${totalToRender}] Rendering: "${caseTitle}" (${quizId}) -> quizz_${paddedIdx}.mp4`);
 

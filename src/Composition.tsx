@@ -2,7 +2,7 @@ import { AbsoluteFill, Audio, Sequence, OffthreadVideo, getInputProps, staticFil
 import { QuizCard } from "./QuizCard";
 
 const QUIZ_DURATION = 240;   // 8 seconds at 30fps
-const PROMO_DURATION = 270;  // 9 seconds at 30fps (covers 8.6s promo)
+const PROMO_DURATION = 180;  // 6 seconds at 30fps
 
 export const mockQuiz = {
   _id: "mock_123",
